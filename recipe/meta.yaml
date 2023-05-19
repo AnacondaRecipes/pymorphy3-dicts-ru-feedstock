@@ -10,8 +10,8 @@ source:
   sha256: 39ab379d4ca905bafed50f5afc3a3de6f9643605776fbcabc4d3088d4ed382b0
 
 build:
-  script: {{ PYTHON }} -m pip install . -vv
   number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps --no-build-isolation -vv
 
 requirements:
   host:
@@ -32,9 +32,14 @@ test:
 
 about:
   home: https://github.com/no-plagiarism/pymorphy3-dicts
-  summary: Russian dictionaries for pymorphy2
-  license: MIT
-  license_file: PLEASE_ADD_LICENSE_FILE
+  dev_url: https://github.com/no-plagiarism/pymorphy3-dicts
+  doc_url: https://github.com/no-plagiarism/pymorphy3-dicts
+  summary: Ukrainian dictionaries for pymorphy3
+  description: |
+    Ukrainian dictionaries for pymorphy3
+  license: GPL-3.0-or-later
+  license_family: GPL
+  license_url: https://github.com/no-plagiarism/pymorphy3-dicts/blob/master/LICENSE
 
 extra:
   recipe-maintainers:
