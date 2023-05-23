@@ -34,9 +34,9 @@ about:
   home: https://github.com/no-plagiarism/pymorphy3-dicts
   dev_url: https://github.com/no-plagiarism/pymorphy3-dicts
   doc_url: https://github.com/no-plagiarism/pymorphy3-dicts
-  summary: Ukrainian dictionaries for pymorphy3
+  summary: Russian dictionaries for pymorphy3
   description: |
-    Ukrainian dictionaries for pymorphy3
+    Russian dictionaries for pymorphy3
   license: GPL-3.0-or-later
   license_family: GPL
   license_url: https://github.com/no-plagiarism/pymorphy3-dicts/blob/master/LICENSE
